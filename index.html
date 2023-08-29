@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bd{
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 200px;
+            
+            /* background-color: red; */
+        }
+        button{
+            margin-top: 50px;
+            padding: 10px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+            border-radius:200px;
+            
+        }
+    
+    
+    </style>
+</head>
+<body><center>
+    <div id="bd"><img src="./WhatsApp_Image_2023-08-29_at_12.32.55_PM-removebg-preview.png" alt=""> </div>
+    <button  onclick="green()"  style="background-color: green;border-radius: 5px;">green</button>
+    <button onclick="Red()"     style="background-color: red; border-radius: 5px;">red</button>
+    <button onclick="blue()"    style="background-color: blue; border-radius: 5px;">blue</button>
+    <button onclick="black()"   style="background-color:  black; border-radius: 5px; color: white;">black</button>
+    <button onclick="brown()"     style="background-color: brown; border-radius: 5px;">brown</button>
+    <button onclick="aqua()"     style="background-color:aqua; border-radius: 5px;">aqua</button>
+    <button onclick="yellow()"     style="background-color: yellow; border-radius: 5px;">yellow</button>
+    <button onclick="gold()"     style="background-color: gold; border-radius: 5px;">gold</button>
+    <button onclick="skyblue()"     style="background-color: skyblue; border-radius: 5px;">skyblue</button>
+
+
+</center>
+
+    <script>
+        function green(){
+          color= document.getElementById('bd').style.backgroundColor="green"
+          
+        }
+    
+     function Red(){
+        color= document.getElementById('bd').style.backgroundColor="red"
+        
+      }
+      function blue(){
+        color= document.getElementById('bd').style.backgroundColor="blue"
+        
+      }
+      function black(){
+        color= document.getElementById('bd').style.backgroundColor="black" 
+      }
+      function brown(){
+        color= document.getElementById('bd').style.backgroundColor="brown" 
+      }
+      function aqua(){
+        color= document.getElementById('bd').style.backgroundColor="aqua" 
+      }
+      function yellow(){
+        color= document.getElementById('bd').style.backgroundColor="yellow" 
+      }
+      function gold(){
+        color= document.getElementById('bd').style.backgroundColor="gold" 
+      }
+      function skyblue(){
+        color= document.getElementById('bd').style.backgroundColor="skyblue" 
+      }
+  </script>
+</body>
+</html>
